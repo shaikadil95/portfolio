@@ -25,12 +25,7 @@ export default function Podcast() {
           {podcastSection.podcast.map((podcastLink) => {
             return (
               <div>
-                <iframe
-                  className="podcast"
-                  src={podcastLink}
-                  frameborder="0"
-                  scrolling="no"
-                ></iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLu3P0mxNEr9NbM9TjPBavn3VyCTPNM2Qs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             );
           })}

@@ -25,7 +25,7 @@ export default function AchievementCard({ cardInfo, isDark }) {
           return (
             <span
               class={isDark ? "dark-mode certificate-tag" : "certificate-tag"}
-              onClick={() => openUrlInNewTab(v.url)}
+              //onClick={() => openUrlInNewTab(v.url)}
             >
               {v.name}
             </span>
